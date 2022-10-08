@@ -2,8 +2,8 @@
   "name": "@coxy/reply-count-loop",
   "version": "1.0.1",
   "description": "Repeats function calls until there is a result",
-  "main": "dist/src/index.js",
-  "types": "dist/src/index.d.ts",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "repository": {
     "type": "git",
     "url": "https://github.com/dsshard/reply-count-loop.git"
@@ -15,18 +15,20 @@
   "keywords": [
     "Replay loop"
   ],
-  "author": "dsshard",
+  "author": "Steven Green",
   "license": "MIT",
   "devDependencies": {
-    "@types/node": "17.0.23",
-    "@typescript-eslint/eslint-plugin": "5.17.0",
-    "@typescript-eslint/parser": "5.17.0",
-    "eslint": "7.32.0",
-    "eslint-config-standard": "16.0.3",
-    "eslint-plugin-import": "2.25.4",
-    "eslint-plugin-node": "11.1.0",
-    "eslint-plugin-promise": "6.0.0",
-    "ts-node": "10.7.0",
-    "typescript": "4.6.3"
+    "@coxy/eslint-config": "1.0.6",
+    "@types/node": "18.8.3",
+    "@typescript-eslint/eslint-plugin": "5.*",
+    "@typescript-eslint/parser": "5.*",
+    "eslint": "8.25.0",
+    "eslint-config-standard": "17.0.0",
+    "eslint-plugin-filename-rules": "1.2.0",
+    "eslint-plugin-import": "2.26.0",
+    "eslint-plugin-n": "15.3.0",
+    "eslint-plugin-promise": "6.0.1",
+    "ts-node": "10.9.1",
+    "typescript": "4.8.4"
   }
 }
