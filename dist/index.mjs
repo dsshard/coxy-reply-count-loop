@@ -1,0 +1,2 @@
+function u(t,r={}){if(!t)throw new Error("first parameter (fn) is required");let e=0;async function o(){try{return await t({attempt:e})}catch(n){if(e+=1,r.attempts>0&&e>r.attempts)throw new Error(n);return typeof r.onError=="function"&&r.onError(n),new Promise(a=>{setTimeout(()=>{a(o());},r.delay||0);})}}return o()}export{u as default};//# sourceMappingURL=index.mjs.map
+//# sourceMappingURL=index.mjs.map

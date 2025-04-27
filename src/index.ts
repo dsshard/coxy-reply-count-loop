@@ -4,10 +4,10 @@ export interface ReplayCountLoopOptions {
   delay?: number
 }
 
-export default function replayCountLoop <T> (fn, options: ReplayCountLoopOptions = {}): Promise<T> {
+export default function replayCountLoop<T>(fn, options: ReplayCountLoopOptions = {}): Promise<T> {
   if (!fn) throw new Error('first parameter (fn) is required')
   let attempt = 0
-  async function replay () {
+  async function replay() {
     try {
       return await fn({ attempt })
     } catch (err) {
