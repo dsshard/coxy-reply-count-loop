@@ -1,6 +1,6 @@
 {
   "name": "@coxy/reply-count-loop",
-  "version": "1.0.2",
+  "version": "1.1.0",
   "description": "Repeats function calls until there is a result",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
@@ -13,7 +13,9 @@
   "scripts": {
     "build": "tsup"
   },
-  "keywords": ["Replay loop"],
+  "keywords": [
+    "Replay loop"
+  ],
   "author": "Steven Green",
   "license": "MIT",
   "devDependencies": {
